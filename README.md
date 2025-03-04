@@ -1,16 +1,16 @@
-# diced_project
+# dice_project
 
-A new Flutter project.
+This is a simple app. The whole premise of it is as follows:
+Press on whatever dice you like and both of them are going to give you a random number.
 
-## Getting Started
+It is a perfect app to play with friends when you are in need of some dice for Board Games, randomizing turns, or even DnD!
 
-This project is a starting point for a Flutter application.
+## Preview of app
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/user-attachments/assets/8c39559b-727e-4666-80ce-b9e69c0b83a7)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Important Widgets and functions I used
+
+What helped me the most was the Stateful widget, as it had a memory of the previous dice faces.
+I imported dart.math and used a Random(). function in order to get a completely random number. (just like in real life!)
